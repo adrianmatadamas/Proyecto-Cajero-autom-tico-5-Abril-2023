@@ -1,0 +1,24 @@
+.cuerpoPagina{
+    background-color: gray;
+}
+
+.cajero{
+    background-color: blanchedalmond;
+    margin-left: 500px;
+    margin-right: 500px;    
+}
+
+h1{
+    color: white;
+}
+
+.loginBox{
+    background-color: blanchedalmond;
+    margin-left: 500px;
+    margin-right: 500px;   
+    padding: 50px;
+}
+
+.cuerpoPagina{
+    background-image: url("./fondoCajero.jpeg")
+}

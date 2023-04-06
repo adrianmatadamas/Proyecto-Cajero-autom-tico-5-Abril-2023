@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="./script.js"></script>
+</head>
+<body class="cuerpoPagina">
+        
+    <!--Cree un formulario para ingresar los datos de las cuentas y validar si el usuario y la contraseña son correctos. 
+    Usuarios y contraseñas correctos para ingresar como nos lo pide el proyecto son:
+
+    Mali
+    1234
+
+    Gera
+    1234
+
+    Maui
+    1234
+
+    Cree 3 usuarios Mali, Gera y Maui, como nos lo pide el proyecto, los 3 con la contraseña 1234 en mi script de javascript.
+    Al ingresar los datos correctos nos envía a un cajero.html donde se encuentra el cajero, en dado caso de no ingresar los datos correctos no nos dejara ingresar mostrando un mensaje de error.-->
+<center>
+
+    <!-- ESTE ES UN FORMULARIO PARA INGRESAR LOS DATOS DE ACCESO, AL HACER CLICK EN ACCEDER EJECUTA LA FUNCIÓN usrpas() del script.js -->
+    <br>
+    <br>
+    <div class="loginBox">
+    <form name="form1">
+    <b>Usuario:</b><input type="text" name="txt"><br>
+    <b>Contraseña:</b> <input type="password" name="num"><br><br>
+    <input type="button" value="Acceder" onclick="usrpas()">
+    </form>
+    </div>
+</center>
+</body>
+</html>
